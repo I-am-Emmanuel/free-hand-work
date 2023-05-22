@@ -1,0 +1,149 @@
+.uber {
+  color: white;
+  background-color: black;
+  height: 36px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.uber:hover {
+  opacity: 0.7;
+
+}
+
+.uber:active {
+  opacity: 0.4;
+}
+
+.amazon {
+  color: black;
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 36px;
+  width: 180px;
+  border-radius: 90px;
+  cursor: pointer;
+  transition: background-color 1s,
+  color 1s;
+}
+
+.amazon:hover {
+  background-color: rgb(165, 165, 165);
+  color: rgb(255, 216, 20);
+}
+
+.amazon:active {
+  opacity: 0.4;
+}
+
+.github {
+  background-color: rgb(46, 164, 79);
+  height: 36px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  width: 85px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: opacity 1s;
+}
+
+.github:hover {
+  opacity: 0.8;
+}
+
+.github:active {
+  opacity: 0.4;
+}
+
+.bootstrap-get_started {
+    background-color: rgb(171, 82, 179);
+    color: white;
+    border: none;
+    height: 36px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 100px;
+    transition: opacity 1s;
+}
+
+.bootstrap-get_started:hover {
+  opacity: 0.8;
+}
+
+.bootstrap-get_started:active {
+  opacity: 0.4;
+}
+
+.download-file {
+    background-color: rgb(222, 224, 225);
+    color: black;
+    border-width: 1px;
+    height: 36px;
+    border-radius: 5px;
+    font-size: bold;
+    cursor: pointer;
+    width: 90px;
+    border-style: solid;
+    margin-right: 40px;
+    transition: background-color 1s;
+
+}
+
+.download-file:hover {
+  background-color: white;
+}
+
+.download-file:active {
+  opacity: 0.4;
+}
+
+.linkedin {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    height: 36px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    width: 210px;
+    margin-right: 10px;
+    transition: box-shadow 1s;
+    
+}
+
+.linkedin:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.linkedin:active {
+  opacity: 0.5;
+}
+
+.linkedin-save {
+    background-color: white;
+    height: 36px;
+    width: 85px;
+    font-weight: bold;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 1s;
+
+}
+.linkedin-save:hover {
+  background-color: rgb(222, 224, 225);
+}
+
+.linkedin-save:active {
+  opacity: 0.4;
+}
+
+
